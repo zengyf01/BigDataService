@@ -47,8 +47,8 @@ public class MyDrive {
 //        job.setNumReduceTasks();
 
         //设置输入和输出路径
-        FileInputFormat.setInputPaths(job,new Path("/Users/zyf/project/my-project/BigDataService/shuguo.txt"));
-         FileOutputFormat.setOutputPath(job,new Path("/Users/zyf/project/my-project/BigDataService/output")); // 输出路径不能存在，如果已经存在就报异常.
+        FileInputFormat.setInputPaths(job,new Path("/Users/zyf/project/my-project/BigDataService/data/input/shuguo.txt"));
+         FileOutputFormat.setOutputPath(job,new Path("/Users/zyf/project/my-project/BigDataService/data/output")); // 输出路径不能存在，如果已经存在就报异常.
 //        FileInputFormat.setInputPaths(job,new Path(args[0]));
 //        FileOutputFormat.setOutputPath(job,new Path(args[1]));
 
